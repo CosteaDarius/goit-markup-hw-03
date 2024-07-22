@@ -15,7 +15,7 @@ body {
 /* Header */
 
 .logo {
-  display: inline;
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -26,21 +26,34 @@ body {
 }
 
 .container {
-display: flex;
-margin: 0 auto;
-width: 1158px;
-padding: 0 15px;
-flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+  flex-direction: row;
+  justify-content: space-between; /* Asigură spațiu între elemente */
+  align-items: center;           /* Aliniază elementele pe axa verticală */
 }
 
 .menu-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+}
+
+.nav-menu ul {
+  display: flex;                 /* Aranjează listele orizontal */
+  list-style: none;              /* Elimină marcajele listei */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin: 0 10px;                /* Spațiu între elemente */
 }
 
 .info {
@@ -53,23 +66,27 @@ flex-direction: column;
 
 .buttons {
   color: #2e2f42;
+  text-decoration: none;         /* Elimină sublinierea */
 }
 
-.buttons:hover, .buttons:focus {
+.buttons:hover,
+.buttons:focus {
   color: #404bbf;
 }
 
 .address {
-font-style: normal;
-color: #434455;
-}
-
-.info-contact:hover, .info-contact:focus {
-  color: #404bbf;
-}
-
-.info-contact{
+  font-style: normal;
   color: #434455;
+}
+
+.info-contact {
+  color: #434455;
+  text-decoration: none;         /* Elimină sublinierea */
+}
+
+.info-contact:hover,
+.info-contact:focus {
+  color: #404bbf;
 }
 
 /* Main */
