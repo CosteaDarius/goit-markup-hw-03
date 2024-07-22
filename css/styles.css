@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6, p { margin: 0;}
+html {box-sizing: border-box;}
+*, *::after, *::before {box-sizing: inherit;}
+img { display:block; max-width: 100%; height: auto;}
+address { font-style: normal; }
+.link {text-decoration: none; color:inherit; }
+.list {list-style: none; padding: 0; margin: 0;}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
@@ -7,6 +15,7 @@ body {
 /* Header */
 
 .logo {
+  display: inline;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -16,10 +25,9 @@ body {
   color: #4d5ae5;
 }
 
-.header-container {
+.container {
 display: flex;
-padding: 24px auto;
-max-width: 1440px;
+margin: 0 auto;
 }
 
 .menu-nav {
@@ -59,7 +67,11 @@ color: #434455;
 }
 
 /* Main */
-.first-section {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.main-section {
 background-color: #2e2f42;
 }
 
