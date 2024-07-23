@@ -49,15 +49,14 @@ body {
 
 .menu {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
-  padding: 24px;
   margin: 0;
 }
 
 .menu-item {
   display: flex;
-  align-items: center; /* Ensure menu items are centered vertically */
+  align-items: center;
+  padding: 24px 0; /* Ensure menu items are centered vertically */
 }
 
 .info-list {
