@@ -204,6 +204,7 @@ background-color: #F4F4FD;
 /* Footer */
 .footer {
   display: flex;
+  width: 1440px;
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -219,6 +220,8 @@ background-color: #F4F4FD;
 
 .studio-logo {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
