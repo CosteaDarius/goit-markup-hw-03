@@ -56,18 +56,23 @@ body {
 
 .menu-item {
   display: flex;
-  align-items: center; 
+  align-items: center; /* Ensure menu items are centered vertically */
 }
 
 .info-list {
   display: flex;
   gap: 40px;
-  align-items: center; 
+  align-items: center; /* Align items vertically */
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.main-list {
+display: flex;
+gap: 40px;
 }
 
 .buttons {
@@ -83,7 +88,7 @@ body {
 .address {
   display: flex;
   gap: 40px;
-  align-items: center; 
+  align-items: center; /* Align items vertically */
   font-style: normal;
   color: #434455;
 }
