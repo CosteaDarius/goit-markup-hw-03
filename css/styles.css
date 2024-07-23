@@ -293,7 +293,6 @@ body {
   row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
-  width: calc((100% - 48px) / 3);
 }
 
 .portofolio-item {
@@ -308,7 +307,7 @@ body {
 
 
 /* Footer */
-.fooer {
+.footer {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
