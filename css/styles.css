@@ -1,37 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-html {
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-address {
-  font-style: normal;
-}
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+h1, h2, h3, h4, h5, h6, p { margin: 0;}
+html {box-sizing: border-box;}
+*, *::after, *::before {box-sizing: inherit;}
+img { display:block; max-width: 100%; height: auto;}
+address { font-style: normal; }
+.link {text-decoration: none; color:inherit; }
+.list {list-style: none; padding: 0; margin: 0;}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -59,7 +32,7 @@ body {
 .container {
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 auto;       
 }
 
 .container-menu {
@@ -78,13 +51,12 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-}
-.menu-item .link {
   padding: 24px 0;
 }
 
 .info-list {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
   justify-content: space-around;
   font-size: 16px;
@@ -96,7 +68,7 @@ body {
 
 .buttons {
   color: #2e2f42;
-  text-decoration: none;
+  text-decoration: none;         
 }
 
 .buttons:hover,
@@ -112,21 +84,10 @@ body {
   color: #434455;
 }
 
-.contacts-box {
-  display: flex;
-  gap: 40px;
-  justify-content: space-around;
-  padding-top: 24px;
-  margin-left: 332px;
-}
-
-.contacts-item {
-  
-}
 
 .info-contact {
   color: #434455;
-  text-decoration: none;
+  text-decoration: none;         
 }
 
 .info-contact:hover,
@@ -140,7 +101,7 @@ body {
 }
 
 .main-section {
-  background-color: #2e2f42;
+background-color: #2e2f42;
 }
 
 .title {
@@ -159,13 +120,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: #4D5AE5;
+  color:  #ffffff;
 }
 
-.main-button:hover,
-.main-button:focus {
-  background-color: #404bbf;
+.main-button:hover, .main-button:focus{
+  background-color: #404BBF;
 }
 
 .titlu-sectiune {
@@ -176,6 +136,7 @@ body {
   color: #2e2f42;
 }
 
+
 .paragraf-sectiune {
   font-size: 16px;
   line-height: 1.5;
@@ -184,11 +145,11 @@ body {
 }
 
 .list-tird-section {
-  background-color: #ffffff;
+background-color: #FFFFFF;
 }
 
-.tird-section {
-  background-color: #f4f4fd;
+.tird-section{
+background-color: #F4F4FD;
 }
 
 .title-our-team {
@@ -260,3 +221,5 @@ body {
 .studio-logo {
   color: #f4f4fd;
 }
+
+
