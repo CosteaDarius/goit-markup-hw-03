@@ -279,6 +279,10 @@ body {
   padding: 120px 0;
 }
 
+.portofolio {
+  margin-bottom: 72px;
+}
+
 .portofolio-list {
   display: flex;
   flex-shrink: 0;
@@ -289,6 +293,12 @@ body {
 
 .portofolio-item {
   flex-basis: calc((100 - 2 * 24px) / 3);
+}
+
+.app-information {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
 }
 
 /* Footer */
