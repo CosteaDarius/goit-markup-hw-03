@@ -305,6 +305,9 @@ body {
   border-top: none;
 }
 
+.title-img {
+margin-bottom: 8px;
+}
 
 /* Footer */
 .footer {
