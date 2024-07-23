@@ -33,10 +33,6 @@ body {
   color: #4d5ae5;
 }
 
-.logo-world{
-
-}
-
 .header-box {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -78,18 +74,20 @@ text-align: left;
 
 /* Main */
 
-.main-section {
+.title-hero {
 background-color: #2e2f42;
+padding: 188px;
 }
 
 .title {
+  display: flex;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
   color: #ffffff;
   line-height: 1.07;
-  text-align: center;
+  justify-content: center;
 }
 
 .buttons {
