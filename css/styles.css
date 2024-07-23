@@ -220,7 +220,8 @@ body {
 }
 
 .list-tird-section {
-
+  display: flex;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-person-name {
