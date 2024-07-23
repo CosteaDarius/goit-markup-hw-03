@@ -200,6 +200,7 @@ body {
 
 .tird-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .title-our-team {
@@ -210,8 +211,6 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
 }
 
 .our-team-list {
@@ -220,7 +219,7 @@ body {
 }
 
 .list-tird-section {
-  
+
 }
 
 .team-person-name {
