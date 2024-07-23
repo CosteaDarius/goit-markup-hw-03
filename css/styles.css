@@ -1,10 +1,37 @@
-h1, h2, h3, h4, h5, h6, p { margin: 0;}
-html {box-sizing: border-box;}
-*, *::after, *::before {box-sizing: inherit;}
-img { display:block; max-width: 100%; height: auto;}
-address { font-style: normal; }
-.link {text-decoration: none; color:inherit; }
-.list {list-style: none; padding: 0; margin: 0;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -57,11 +84,11 @@ body {
 }
 
 .menu-item {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .contacts-box {
@@ -113,19 +140,38 @@ text-align: left;
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #4D5AE5;
-  color:  #ffffff;
+  background-color: #4d5ae5;
+  color: #ffffff;
   text-align: center;
   align-items: center;
   margin: 0 auto;
 }
 
-.main-button:hover, .main-button:focus{
-  background-color: #404BBF;
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 .second-section {
   padding: 120px 0;
+}
+
+.titlu-sectiune-principala {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefit-item-list {
+  display: flex;
+  gap: 24px;
 }
 
 .titlu-sectiune {
@@ -134,8 +180,8 @@ text-align: left;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-
 
 .paragraf-sectiune {
   font-size: 16px;
@@ -145,11 +191,11 @@ text-align: left;
 }
 
 .list-tird-section {
-background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.tird-section{
-background-color: #F4F4FD;
+.tird-section {
+  background-color: #f4f4fd;
 }
 
 .title-our-team {
@@ -241,5 +287,3 @@ background-color: #F4F4FD;
 .studio-logo-footer {
   color: #f4f4fd;
 }
-
-
