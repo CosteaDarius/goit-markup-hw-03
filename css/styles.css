@@ -231,6 +231,8 @@ background-color: #F4F4FD;
 
 .studio-logo {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
