@@ -31,6 +31,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .header-box {
@@ -229,7 +230,7 @@ background-color: #F4F4FD;
   max-width: 264px;
 }
 
-.studio-logo {
+.studio-logo-footer {
   color: #f4f4fd;
   margin-bottom: 16px;
   display: inline-block;
