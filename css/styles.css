@@ -210,6 +210,17 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.list-tird-section {
+  
 }
 
 .team-person-name {
