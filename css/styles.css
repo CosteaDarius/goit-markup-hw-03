@@ -14,7 +14,7 @@ body {
 
 /* Header */
 
-..logo {
+.logo {
   display: flex;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -29,7 +29,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px;       
 }
 
 .container-menu {
@@ -62,7 +62,7 @@ body {
 .info-list {
   display: flex;
   gap: 40px;
-  align-items: center;
+  align-items: center; /* Align items vertically */
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -71,8 +71,8 @@ body {
 }
 
 .main-list {
-  display: flex;
-  gap: 40px;
+display: flex;
+gap: 40px;
 }
 
 .buttons {
@@ -88,7 +88,7 @@ body {
 .address {
   display: flex;
   gap: 40px;
-  align-items: center;
+  align-items: center; /* Align items vertically */
   font-style: normal;
   color: #434455;
 }
@@ -102,7 +102,6 @@ body {
 .info-contact:focus {
   color: #404bbf;
 }
-
 
 
 /* Main */
