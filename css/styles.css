@@ -14,9 +14,11 @@ body {
 
 /* Header */
 
+/* Stiluri pentru logo */
 .logo {
   display: flex;
-  margin-right: 76px;
+  padding-left: 156px;
+  padding-right: 76px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -26,18 +28,21 @@ body {
   color: #4d5ae5;
 }
 
+/* Stiluri pentru container */
 .container {
   width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;       
+  padding: 0 15px;
+  margin: 0 auto;       
 }
 
+/* Stiluri pentru container-menu */
 .container-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Stiluri pentru meniul de navigare */
 .menu-nav {
   display: flex;
   align-items: center;
@@ -47,19 +52,21 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Stiluri pentru meniul de elemente */
 .menu {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
   padding: 24px;
   margin: 0;
 }
 
+/* Stiluri pentru fiecare element de meniu */
 .menu-item {
   display: flex;
   align-items: center; /* Ensure menu items are centered vertically */
 }
 
+/* Stiluri pentru lista din interiorul adresei */
 .info-list {
   display: flex;
   gap: 40px;
@@ -71,6 +78,7 @@ body {
   color: #434455;
 }
 
+/* Stiluri pentru butoane */
 .buttons {
   color: #2e2f42;
   text-decoration: none;
@@ -81,6 +89,7 @@ body {
   color: #404bbf;
 }
 
+/* Stiluri pentru adresa */
 .address {
   display: flex;
   gap: 40px;
@@ -89,6 +98,7 @@ body {
   color: #434455;
 }
 
+/* Stiluri pentru contacte */
 .info-contact {
   color: #434455;
   text-decoration: none;
@@ -98,6 +108,7 @@ body {
 .info-contact:focus {
   color: #404bbf;
 }
+
 
 
 /* Main */
