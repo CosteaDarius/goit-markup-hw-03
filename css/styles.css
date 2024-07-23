@@ -14,7 +14,7 @@ body {
 
 /* Header */
 
-.logo {
+..logo {
   display: flex;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -29,7 +29,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;       
+  padding: 0 15px;
 }
 
 .container-menu {
@@ -55,14 +55,14 @@ body {
 
 .menu-item {
   display: flex;
+  padding: 24px 0;
   align-items: center;
-  padding: 24px 0; /* Ensure menu items are centered vertically */
 }
 
 .info-list {
   display: flex;
   gap: 40px;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -71,8 +71,8 @@ body {
 }
 
 .main-list {
-display: flex;
-gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .buttons {
@@ -88,7 +88,7 @@ gap: 40px;
 .address {
   display: flex;
   gap: 40px;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   font-style: normal;
   color: #434455;
 }
@@ -102,6 +102,7 @@ gap: 40px;
 .info-contact:focus {
   color: #404bbf;
 }
+
 
 
 /* Main */
